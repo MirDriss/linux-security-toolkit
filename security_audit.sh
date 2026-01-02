@@ -1,17 +1,19 @@
 #!/bin/bash 
 
+DIR_SCRIPT="$(cd "$(dirname "$0")" && pwd)"
 echo "===== LINUX SECURITY AUDIT ====="
-
-hostname=$(whoami)
-
-echo "hostname: $hostname"
+echo "hostname: $(hostname)"
 echo "Date: $(date)"
 echo -e "\n"
 echo "--- Users audit ---"
-./audits/users_uid0.sh 
+"$DIR_SCRIPT"/audits/users_uid0.sh 
 echo -e "\n"
 echo "--- Open ports audit ---"
-./audits/ports_open.sh
+"$DIR_SCRIPT"/audits/ports_open.sh
 echo -e "\n"
 echo "--- Running services audit ---"
-./audits/services_running.sh
+"$DIR_SCRIPT"/audits/services_running.sh
+
+
+
+echo "$DIR_SCRIPT"
