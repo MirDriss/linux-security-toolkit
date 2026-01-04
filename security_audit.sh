@@ -1,5 +1,10 @@
-#!/bin/bash 
+#!/bin/bash
 
+RED="\033[31m"
+GREEN="\033[32m"
+YELLOW="\033[33m"
+BLUE="\033[34m"
+RESET="\033[0m"
 DIR_SCRIPT="$(cd "$(dirname "$0")" && pwd)"
 
 DIRECTORY="reports"
@@ -9,11 +14,27 @@ if [ ! -d "$DIRECTORY" ]; then
 fi
 
 REPORT_FILE="$DIRECTORY/audit_$(date -I).txt"
-echo "===== LINUX SECURITY AUDIT ====" >> "$REPORT_FILE"
-echo "Audit executed at $(date '+%Y-%m-%d %H:%M:%S') by $(hostname)" >> "$REPORT_FILE"
+
+function log_level(){
+        level="$1"
+        message="$2"
+        case "$level" in 
+                INFO) color="$BLUE" ;;
+                OK) color="$GREEN" ;;
+                WARNING) color="$YELLOW" ;;
+                ALERT|CRITICAL) color="$RED" ;;
+                *) color="$RESET" ;;
+        esac 
+        # Write in the terminal 
+        echo -e "${color}[$level] ${RESET}$message " 
+        # Write in the file 
+        echo "[$level] $message" >> "$REPORT_FILE"
+}
+
+log_level INFO "===== LINUX SECURITY AUDIT ====="
+log_level INFO "Audit executed at $(date '+%Y-%m-%d %H:%M:%S') by $(hostname)" 
 echo "------------------------" >> "$REPORT_FILE"
-echo "===== LINUX SECURITY AUDIT ====="
-echo "hostname: $(hostname)"
+echo -e "hostname: $(hostname)"
 echo "Date: $(date)"
 echo -e "\n"
 echo "--- Users audit ---" | tee -a "$REPORT_FILE" 
