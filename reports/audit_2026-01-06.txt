@@ -1,0 +1,1031 @@
+[INFO] ===== LINUX SECURITY AUDIT =====
+[INFO] Audit executed at 2026-01-06 20:16:05 by ubuntu-VMware-Virtual-Platform
+[INFO] ------------------------
+[INFO] hostname: ubuntu-VMware-Virtual-Platform
+[INFO] Date: Tue Jan  6 08:16:05 PM CET 2026
+
+
+[INFO] --- Users audit ---
+/home/ubuntu/Téléchargements/linux-security-toolkit/audits
+[34m[INFO] [0mtotal users detected: 57 
+⚠️ Privileged account detected: root
+No extra privileged accounts detected.
+
+
+[INFO] --- Open ports audit ---
+[31m[CRITICAL][0m Total ports open detected: 25
+Port open detected: 22
+Port open detected: 48340
+Port open detected: 49000
+Port open detected: 53
+Port open detected: 5353
+Port open detected: 631
+Port open detected: 80
+Port open detected: 8060
+Port open detected: 8080
+Port open detected: 8082
+Port open detected: 8092
+Port open detected: 8150
+Port open detected: 8151
+Port open detected: 8153
+Port open detected: 8154
+Port open detected: 8155
+Port open detected: 9090
+Port open detected: 9093
+Port open detected: 9094
+Port open detected: 9100
+Port open detected: 9121
+Port open detected: 9168
+Port open detected: 9187
+Port open detected: 9229
+Port open detected: 9236
+
+
+[INFO] --- Running services audit ---
+[33m[WARNING][0m Total running services detected: 38
+Detected service: accounts-daemon.service
+Detected service: avahi-daemon.service
+Detected service: colord.service
+Detected service: containerd.service
+Detected service: cron.service
+Detected service: cups-browsed.service
+Detected service: cups.service
+Detected service: dbus.service
+Detected service: gdm.service
+Detected service: geoclue.service
+Detected service: gitlab-runsvdir.service
+Detected service: gnome-remote-desktop.service
+Detected service: jenkins.service
+Detected service: kerneloops.service
+Detected service: ModemManager.service
+Detected service: NetworkManager.service
+Detected service: open-vm-tools.service
+Detected service: packagekit.service
+Detected service: polkit.service
+Detected service: power-profiles-daemon.service
+Detected service: rsyslog.service
+Detected service: rtkit-daemon.service
+Detected service: snapd.service
+Detected service: switcheroo-control.service
+Detected service: systemd-hostnamed.service
+Detected service: systemd-journald.service
+Detected service: systemd-localed.service
+Detected service: systemd-logind.service
+Detected service: systemd-oomd.service
+Detected service: systemd-resolved.service
+Detected service: systemd-timesyncd.service
+Detected service: systemd-udevd.service
+Detected service: udisks2.service
+Detected service: unattended-upgrades.service
+Detected service: upower.service
+Detected service: user@1000.service
+Detected service: vgauth.service
+Detected service: wpa_supplicant.service
+[INFO] ===== LINUX SECURITY AUDIT =====
+[INFO] Audit executed at 2026-01-06 20:19:44 by ubuntu-VMware-Virtual-Platform
+[INFO] ------------------------
+[INFO] hostname: ubuntu-VMware-Virtual-Platform
+[INFO] Date: Tue Jan  6 08:19:44 PM CET 2026
+
+
+[INFO] --- Users audit ---
+/home/ubuntu/Téléchargements/linux-security-toolkit/audits
+[34m[INFO] [0mtotal users detected: 57 
+⚠️ Privileged account detected: root
+No extra privileged accounts detected.
+
+
+[INFO] --- Open ports audit ---
+[31m[CRITICAL][0m Total ports open detected: 25
+Port open detected: 22
+Port open detected: 48340
+Port open detected: 49000
+Port open detected: 53
+Port open detected: 5353
+Port open detected: 631
+Port open detected: 80
+Port open detected: 8060
+Port open detected: 8080
+Port open detected: 8082
+Port open detected: 8092
+Port open detected: 8150
+Port open detected: 8151
+Port open detected: 8153
+Port open detected: 8154
+Port open detected: 8155
+Port open detected: 9090
+Port open detected: 9093
+Port open detected: 9094
+Port open detected: 9100
+Port open detected: 9121
+Port open detected: 9168
+Port open detected: 9187
+Port open detected: 9229
+Port open detected: 9236
+
+
+[INFO] --- Running services audit ---
+[33m[WARNING][0m Total running services detected: 36
+Detected service: accounts-daemon.service
+Detected service: avahi-daemon.service
+Detected service: colord.service
+Detected service: containerd.service
+Detected service: cron.service
+Detected service: cups-browsed.service
+Detected service: cups.service
+Detected service: dbus.service
+Detected service: fwupd.service
+Detected service: gdm.service
+Detected service: gitlab-runsvdir.service
+Detected service: gnome-remote-desktop.service
+Detected service: jenkins.service
+Detected service: kerneloops.service
+Detected service: ModemManager.service
+Detected service: NetworkManager.service
+Detected service: open-vm-tools.service
+Detected service: packagekit.service
+Detected service: polkit.service
+Detected service: power-profiles-daemon.service
+Detected service: rsyslog.service
+Detected service: rtkit-daemon.service
+Detected service: snapd.service
+Detected service: switcheroo-control.service
+Detected service: systemd-journald.service
+Detected service: systemd-logind.service
+Detected service: systemd-oomd.service
+Detected service: systemd-resolved.service
+Detected service: systemd-timesyncd.service
+Detected service: systemd-udevd.service
+Detected service: udisks2.service
+Detected service: unattended-upgrades.service
+Detected service: upower.service
+Detected service: user@1000.service
+Detected service: vgauth.service
+Detected service: wpa_supplicant.service
+[INFO] ===== LINUX SECURITY AUDIT =====
+[INFO] Audit executed at 2026-01-06 20:24:09 by ubuntu-VMware-Virtual-Platform
+[INFO] ------------------------
+[INFO] hostname: ubuntu-VMware-Virtual-Platform
+[INFO] Date: Tue Jan  6 08:24:09 PM CET 2026
+
+
+[INFO] --- Users audit ---
+/home/ubuntu/Téléchargements/linux-security-toolkit/audits
+[34m[INFO] [0mtotal users detected: 57 
+⚠️ Privileged account detected: root
+No extra privileged accounts detected.
+
+
+[INFO] --- Open ports audit ---
+[31m[CRITICAL][0m Total ports open detected: 25
+Port open detected: 22
+Port open detected: 48340
+Port open detected: 49000
+Port open detected: 53
+Port open detected: 5353
+Port open detected: 631
+Port open detected: 80
+Port open detected: 8060
+Port open detected: 8080
+Port open detected: 8082
+Port open detected: 8092
+Port open detected: 8150
+Port open detected: 8151
+Port open detected: 8153
+Port open detected: 8154
+Port open detected: 8155
+Port open detected: 9090
+Port open detected: 9093
+Port open detected: 9094
+Port open detected: 9100
+Port open detected: 9121
+Port open detected: 9168
+Port open detected: 9187
+Port open detected: 9229
+Port open detected: 9236
+
+
+[INFO] --- Running services audit ---
+[33m[WARNING][0m Total running services detected: 35
+Detected service: accounts-daemon.service
+Detected service: avahi-daemon.service
+Detected service: colord.service
+Detected service: containerd.service
+Detected service: cron.service
+Detected service: cups-browsed.service
+Detected service: cups.service
+Detected service: dbus.service
+Detected service: fwupd.service
+Detected service: gdm.service
+Detected service: gitlab-runsvdir.service
+Detected service: gnome-remote-desktop.service
+Detected service: jenkins.service
+Detected service: kerneloops.service
+Detected service: ModemManager.service
+Detected service: NetworkManager.service
+Detected service: open-vm-tools.service
+Detected service: polkit.service
+Detected service: power-profiles-daemon.service
+Detected service: rsyslog.service
+Detected service: rtkit-daemon.service
+Detected service: snapd.service
+Detected service: switcheroo-control.service
+Detected service: systemd-journald.service
+Detected service: systemd-logind.service
+Detected service: systemd-oomd.service
+Detected service: systemd-resolved.service
+Detected service: systemd-timesyncd.service
+Detected service: systemd-udevd.service
+Detected service: udisks2.service
+Detected service: unattended-upgrades.service
+Detected service: upower.service
+Detected service: user@1000.service
+Detected service: vgauth.service
+Detected service: wpa_supplicant.service
+[INFO] ===== LINUX SECURITY AUDIT =====
+[INFO] Audit executed at 2026-01-06 20:25:11 by ubuntu-VMware-Virtual-Platform
+[INFO] ------------------------
+[INFO] hostname: ubuntu-VMware-Virtual-Platform
+[INFO] Date: Tue Jan  6 08:25:11 PM CET 2026
+
+
+[INFO] --- Users audit ---
+/home/ubuntu/Téléchargements/linux-security-toolkit/audits
+[34m[INFO] [0mtotal users detected: 57 
+⚠️ Privileged account detected: root
+No extra privileged accounts detected.
+
+
+[INFO] --- Open ports audit ---
+[31m[CRITICAL][0m Total ports open detected: 25
+Port open detected: 22
+Port open detected: 48340
+Port open detected: 49000
+Port open detected: 53
+Port open detected: 5353
+Port open detected: 631
+Port open detected: 80
+Port open detected: 8060
+Port open detected: 8080
+Port open detected: 8082
+Port open detected: 8092
+Port open detected: 8150
+Port open detected: 8151
+Port open detected: 8153
+Port open detected: 8154
+Port open detected: 8155
+Port open detected: 9090
+Port open detected: 9093
+Port open detected: 9094
+Port open detected: 9100
+Port open detected: 9121
+Port open detected: 9168
+Port open detected: 9187
+Port open detected: 9229
+Port open detected: 9236
+
+
+[INFO] --- Running services audit ---
+[33m[WARNING][0m Total running services detected: 35
+Detected service: accounts-daemon.service
+Detected service: avahi-daemon.service
+Detected service: colord.service
+Detected service: containerd.service
+Detected service: cron.service
+Detected service: cups-browsed.service
+Detected service: cups.service
+Detected service: dbus.service
+Detected service: fwupd.service
+Detected service: gdm.service
+Detected service: gitlab-runsvdir.service
+Detected service: gnome-remote-desktop.service
+Detected service: jenkins.service
+Detected service: kerneloops.service
+Detected service: ModemManager.service
+Detected service: NetworkManager.service
+Detected service: open-vm-tools.service
+Detected service: polkit.service
+Detected service: power-profiles-daemon.service
+Detected service: rsyslog.service
+Detected service: rtkit-daemon.service
+Detected service: snapd.service
+Detected service: switcheroo-control.service
+Detected service: systemd-journald.service
+Detected service: systemd-logind.service
+Detected service: systemd-oomd.service
+Detected service: systemd-resolved.service
+Detected service: systemd-timesyncd.service
+Detected service: systemd-udevd.service
+Detected service: udisks2.service
+Detected service: unattended-upgrades.service
+Detected service: upower.service
+Detected service: user@1000.service
+Detected service: vgauth.service
+Detected service: wpa_supplicant.service
+[INFO] ===== LINUX SECURITY AUDIT =====
+[INFO] Audit executed at 2026-01-06 20:26:25 by ubuntu-VMware-Virtual-Platform
+[INFO] ------------------------
+[INFO] hostname: ubuntu-VMware-Virtual-Platform
+[INFO] Date: Tue Jan  6 08:26:25 PM CET 2026
+
+
+[INFO] --- Users audit ---
+/home/ubuntu/Téléchargements/linux-security-toolkit/audits
+[34m[INFO] [0mtotal users detected: 57 
+⚠️ Privileged account detected: root
+No extra privileged accounts detected.
+
+
+[INFO] --- Open ports audit ---
+[31m[CRITICAL][0m Total ports open detected: 25
+Port open detected: 22
+Port open detected: 48340
+Port open detected: 49000
+Port open detected: 53
+Port open detected: 5353
+Port open detected: 631
+Port open detected: 80
+Port open detected: 8060
+Port open detected: 8080
+Port open detected: 8082
+Port open detected: 8092
+Port open detected: 8150
+Port open detected: 8151
+Port open detected: 8153
+Port open detected: 8154
+Port open detected: 8155
+Port open detected: 9090
+Port open detected: 9093
+Port open detected: 9094
+Port open detected: 9100
+Port open detected: 9121
+Port open detected: 9168
+Port open detected: 9187
+Port open detected: 9229
+Port open detected: 9236
+
+
+[INFO] --- Running services audit ---
+[33m[WARNING][0m Total running services detected: 35
+Detected service: accounts-daemon.service
+Detected service: avahi-daemon.service
+Detected service: colord.service
+Detected service: containerd.service
+Detected service: cron.service
+Detected service: cups-browsed.service
+Detected service: cups.service
+Detected service: dbus.service
+Detected service: fwupd.service
+Detected service: gdm.service
+Detected service: gitlab-runsvdir.service
+Detected service: gnome-remote-desktop.service
+Detected service: jenkins.service
+Detected service: kerneloops.service
+Detected service: ModemManager.service
+Detected service: NetworkManager.service
+Detected service: open-vm-tools.service
+Detected service: polkit.service
+Detected service: power-profiles-daemon.service
+Detected service: rsyslog.service
+Detected service: rtkit-daemon.service
+Detected service: snapd.service
+Detected service: switcheroo-control.service
+Detected service: systemd-journald.service
+Detected service: systemd-logind.service
+Detected service: systemd-oomd.service
+Detected service: systemd-resolved.service
+Detected service: systemd-timesyncd.service
+Detected service: systemd-udevd.service
+Detected service: udisks2.service
+Detected service: unattended-upgrades.service
+Detected service: upower.service
+Detected service: user@1000.service
+Detected service: vgauth.service
+Detected service: wpa_supplicant.service
+[INFO] ===== LINUX SECURITY AUDIT =====
+[INFO] Audit executed at 2026-01-06 20:27:52 by ubuntu-VMware-Virtual-Platform
+[INFO] ------------------------
+[INFO] hostname: ubuntu-VMware-Virtual-Platform
+[INFO] Date: Tue Jan  6 08:27:52 PM CET 2026
+
+
+[INFO] --- Users audit ---
+[34m[INFO] [0mtotal users detected: 57 
+⚠️ Privileged account detected: root
+No extra privileged accounts detected.
+
+
+[INFO] --- Open ports audit ---
+[31m[CRITICAL][0m Total ports open detected: 25
+Port open detected: 22
+Port open detected: 48340
+Port open detected: 49000
+Port open detected: 53
+Port open detected: 5353
+Port open detected: 631
+Port open detected: 80
+Port open detected: 8060
+Port open detected: 8080
+Port open detected: 8082
+Port open detected: 8092
+Port open detected: 8150
+Port open detected: 8151
+Port open detected: 8153
+Port open detected: 8154
+Port open detected: 8155
+Port open detected: 9090
+Port open detected: 9093
+Port open detected: 9094
+Port open detected: 9100
+Port open detected: 9121
+Port open detected: 9168
+Port open detected: 9187
+Port open detected: 9229
+Port open detected: 9236
+
+
+[INFO] --- Running services audit ---
+[33m[WARNING][0m Total running services detected: 35
+Detected service: accounts-daemon.service
+Detected service: avahi-daemon.service
+Detected service: colord.service
+Detected service: containerd.service
+Detected service: cron.service
+Detected service: cups-browsed.service
+Detected service: cups.service
+Detected service: dbus.service
+Detected service: fwupd.service
+Detected service: gdm.service
+Detected service: gitlab-runsvdir.service
+Detected service: gnome-remote-desktop.service
+Detected service: jenkins.service
+Detected service: kerneloops.service
+Detected service: ModemManager.service
+Detected service: NetworkManager.service
+Detected service: open-vm-tools.service
+Detected service: polkit.service
+Detected service: power-profiles-daemon.service
+Detected service: rsyslog.service
+Detected service: rtkit-daemon.service
+Detected service: snapd.service
+Detected service: switcheroo-control.service
+Detected service: systemd-journald.service
+Detected service: systemd-logind.service
+Detected service: systemd-oomd.service
+Detected service: systemd-resolved.service
+Detected service: systemd-timesyncd.service
+Detected service: systemd-udevd.service
+Detected service: udisks2.service
+Detected service: unattended-upgrades.service
+Detected service: upower.service
+Detected service: user@1000.service
+Detected service: vgauth.service
+Detected service: wpa_supplicant.service
+[INFO] ===== LINUX SECURITY AUDIT =====
+[INFO] Audit executed at 2026-01-06 20:33:45 by ubuntu-VMware-Virtual-Platform
+[INFO] ------------------------
+[INFO] hostname: ubuntu-VMware-Virtual-Platform
+[INFO] Date: Tue Jan  6 08:33:45 PM CET 2026
+
+
+[INFO] --- Users audit ---
+[INFO] total users detected: 57
+[34m[INFO] [0mtotal users detected: 57 
+⚠️ Privileged account detected: root
+No extra privileged accounts detected.
+
+
+[INFO] --- Open ports audit ---
+[31m[CRITICAL][0m Total ports open detected: 25
+Port open detected: 22
+Port open detected: 48340
+Port open detected: 49000
+Port open detected: 53
+Port open detected: 5353
+Port open detected: 631
+Port open detected: 80
+Port open detected: 8060
+Port open detected: 8080
+Port open detected: 8082
+Port open detected: 8092
+Port open detected: 8150
+Port open detected: 8151
+Port open detected: 8153
+Port open detected: 8154
+Port open detected: 8155
+Port open detected: 9090
+Port open detected: 9093
+Port open detected: 9094
+Port open detected: 9100
+Port open detected: 9121
+Port open detected: 9168
+Port open detected: 9187
+Port open detected: 9229
+Port open detected: 9236
+
+
+[INFO] --- Running services audit ---
+[33m[WARNING][0m Total running services detected: 35
+Detected service: accounts-daemon.service
+Detected service: avahi-daemon.service
+Detected service: colord.service
+Detected service: containerd.service
+Detected service: cron.service
+Detected service: cups-browsed.service
+Detected service: cups.service
+Detected service: dbus.service
+Detected service: fwupd.service
+Detected service: gdm.service
+Detected service: gitlab-runsvdir.service
+Detected service: gnome-remote-desktop.service
+Detected service: jenkins.service
+Detected service: kerneloops.service
+Detected service: ModemManager.service
+Detected service: NetworkManager.service
+Detected service: open-vm-tools.service
+Detected service: polkit.service
+Detected service: power-profiles-daemon.service
+Detected service: rsyslog.service
+Detected service: rtkit-daemon.service
+Detected service: snapd.service
+Detected service: switcheroo-control.service
+Detected service: systemd-journald.service
+Detected service: systemd-logind.service
+Detected service: systemd-oomd.service
+Detected service: systemd-resolved.service
+Detected service: systemd-timesyncd.service
+Detected service: systemd-udevd.service
+Detected service: udisks2.service
+Detected service: unattended-upgrades.service
+Detected service: upower.service
+Detected service: user@1000.service
+Detected service: vgauth.service
+Detected service: wpa_supplicant.service
+[INFO] ===== LINUX SECURITY AUDIT =====
+[INFO] Audit executed at 2026-01-06 20:35:17 by ubuntu-VMware-Virtual-Platform
+[INFO] ------------------------
+[INFO] hostname: ubuntu-VMware-Virtual-Platform
+[INFO] Date: Tue Jan  6 08:35:17 PM CET 2026
+
+
+[INFO] --- Users audit ---
+[INFO] total users detected: 57
+[34m[INFO] [0mtotal users detected: 57 
+⚠️ Privileged account detected: root
+[34m[INFO] [0mNo extra privileged accounts detected. 
+[INFO] No extra privileged accounts detected.
+
+
+[INFO] --- Open ports audit ---
+[31m[CRITICAL][0m Total ports open detected: 25
+Port open detected: 22
+Port open detected: 48340
+Port open detected: 49000
+Port open detected: 53
+Port open detected: 5353
+Port open detected: 631
+Port open detected: 80
+Port open detected: 8060
+Port open detected: 8080
+Port open detected: 8082
+Port open detected: 8092
+Port open detected: 8150
+Port open detected: 8151
+Port open detected: 8153
+Port open detected: 8154
+Port open detected: 8155
+Port open detected: 9090
+Port open detected: 9093
+Port open detected: 9094
+Port open detected: 9100
+Port open detected: 9121
+Port open detected: 9168
+Port open detected: 9187
+Port open detected: 9229
+Port open detected: 9236
+
+
+[INFO] --- Running services audit ---
+[33m[WARNING][0m Total running services detected: 35
+Detected service: accounts-daemon.service
+Detected service: avahi-daemon.service
+Detected service: colord.service
+Detected service: containerd.service
+Detected service: cron.service
+Detected service: cups-browsed.service
+Detected service: cups.service
+Detected service: dbus.service
+Detected service: fwupd.service
+Detected service: gdm.service
+Detected service: gitlab-runsvdir.service
+Detected service: gnome-remote-desktop.service
+Detected service: jenkins.service
+Detected service: kerneloops.service
+Detected service: ModemManager.service
+Detected service: NetworkManager.service
+Detected service: open-vm-tools.service
+Detected service: polkit.service
+Detected service: power-profiles-daemon.service
+Detected service: rsyslog.service
+Detected service: rtkit-daemon.service
+Detected service: snapd.service
+Detected service: switcheroo-control.service
+Detected service: systemd-journald.service
+Detected service: systemd-logind.service
+Detected service: systemd-oomd.service
+Detected service: systemd-resolved.service
+Detected service: systemd-timesyncd.service
+Detected service: systemd-udevd.service
+Detected service: udisks2.service
+Detected service: unattended-upgrades.service
+Detected service: upower.service
+Detected service: user@1000.service
+Detected service: vgauth.service
+Detected service: wpa_supplicant.service
+[INFO] ===== LINUX SECURITY AUDIT =====
+[INFO] Audit executed at 2026-01-06 20:35:58 by ubuntu-VMware-Virtual-Platform
+[INFO] ------------------------
+[INFO] hostname: ubuntu-VMware-Virtual-Platform
+[INFO] Date: Tue Jan  6 08:35:58 PM CET 2026
+
+
+[INFO] --- Users audit ---
+[INFO] total users detected: 57
+[34m[INFO] [0mtotal users detected: 57 
+⚠️ Privileged account detected: root
+[32m[OK] [0mNo extra privileged accounts detected. 
+[OK] No extra privileged accounts detected.
+
+
+[INFO] --- Open ports audit ---
+[31m[CRITICAL][0m Total ports open detected: 25
+Port open detected: 22
+Port open detected: 48340
+Port open detected: 49000
+Port open detected: 53
+Port open detected: 5353
+Port open detected: 631
+Port open detected: 80
+Port open detected: 8060
+Port open detected: 8080
+Port open detected: 8082
+Port open detected: 8092
+Port open detected: 8150
+Port open detected: 8151
+Port open detected: 8153
+Port open detected: 8154
+Port open detected: 8155
+Port open detected: 9090
+Port open detected: 9093
+Port open detected: 9094
+Port open detected: 9100
+Port open detected: 9121
+Port open detected: 9168
+Port open detected: 9187
+Port open detected: 9229
+Port open detected: 9236
+
+
+[INFO] --- Running services audit ---
+[33m[WARNING][0m Total running services detected: 35
+Detected service: accounts-daemon.service
+Detected service: avahi-daemon.service
+Detected service: colord.service
+Detected service: containerd.service
+Detected service: cron.service
+Detected service: cups-browsed.service
+Detected service: cups.service
+Detected service: dbus.service
+Detected service: fwupd.service
+Detected service: gdm.service
+Detected service: gitlab-runsvdir.service
+Detected service: gnome-remote-desktop.service
+Detected service: jenkins.service
+Detected service: kerneloops.service
+Detected service: ModemManager.service
+Detected service: NetworkManager.service
+Detected service: open-vm-tools.service
+Detected service: polkit.service
+Detected service: power-profiles-daemon.service
+Detected service: rsyslog.service
+Detected service: rtkit-daemon.service
+Detected service: snapd.service
+Detected service: switcheroo-control.service
+Detected service: systemd-journald.service
+Detected service: systemd-logind.service
+Detected service: systemd-oomd.service
+Detected service: systemd-resolved.service
+Detected service: systemd-timesyncd.service
+Detected service: systemd-udevd.service
+Detected service: udisks2.service
+Detected service: unattended-upgrades.service
+Detected service: upower.service
+Detected service: user@1000.service
+Detected service: vgauth.service
+Detected service: wpa_supplicant.service
+[INFO] ===== LINUX SECURITY AUDIT =====
+[INFO] Audit executed at 2026-01-06 20:36:31 by ubuntu-VMware-Virtual-Platform
+[INFO] ------------------------
+[INFO] hostname: ubuntu-VMware-Virtual-Platform
+[INFO] Date: Tue Jan  6 08:36:31 PM CET 2026
+
+
+[INFO] --- Users audit ---
+[INFO] total users detected: 57
+[34m[INFO] [0mtotal users detected: 57 
+[33m[WARNING] [0m⚠️ Privileged account detected: root 
+[WARNING] ⚠️ Privileged account detected: root
+[32m[OK] [0mNo extra privileged accounts detected. 
+[OK] No extra privileged accounts detected.
+
+
+[INFO] --- Open ports audit ---
+[31m[CRITICAL][0m Total ports open detected: 25
+Port open detected: 22
+Port open detected: 48340
+Port open detected: 49000
+Port open detected: 53
+Port open detected: 5353
+Port open detected: 631
+Port open detected: 80
+Port open detected: 8060
+Port open detected: 8080
+Port open detected: 8082
+Port open detected: 8092
+Port open detected: 8150
+Port open detected: 8151
+Port open detected: 8153
+Port open detected: 8154
+Port open detected: 8155
+Port open detected: 9090
+Port open detected: 9093
+Port open detected: 9094
+Port open detected: 9100
+Port open detected: 9121
+Port open detected: 9168
+Port open detected: 9187
+Port open detected: 9229
+Port open detected: 9236
+
+
+[INFO] --- Running services audit ---
+[33m[WARNING][0m Total running services detected: 35
+Detected service: accounts-daemon.service
+Detected service: avahi-daemon.service
+Detected service: colord.service
+Detected service: containerd.service
+Detected service: cron.service
+Detected service: cups-browsed.service
+Detected service: cups.service
+Detected service: dbus.service
+Detected service: fwupd.service
+Detected service: gdm.service
+Detected service: gitlab-runsvdir.service
+Detected service: gnome-remote-desktop.service
+Detected service: jenkins.service
+Detected service: kerneloops.service
+Detected service: ModemManager.service
+Detected service: NetworkManager.service
+Detected service: open-vm-tools.service
+Detected service: polkit.service
+Detected service: power-profiles-daemon.service
+Detected service: rsyslog.service
+Detected service: rtkit-daemon.service
+Detected service: snapd.service
+Detected service: switcheroo-control.service
+Detected service: systemd-journald.service
+Detected service: systemd-logind.service
+Detected service: systemd-oomd.service
+Detected service: systemd-resolved.service
+Detected service: systemd-timesyncd.service
+Detected service: systemd-udevd.service
+Detected service: udisks2.service
+Detected service: unattended-upgrades.service
+Detected service: upower.service
+Detected service: user@1000.service
+Detected service: vgauth.service
+Detected service: wpa_supplicant.service
+[INFO] ===== LINUX SECURITY AUDIT =====
+[INFO] Audit executed at 2026-01-06 20:37:31 by ubuntu-VMware-Virtual-Platform
+[INFO] ------------------------
+[INFO] hostname: ubuntu-VMware-Virtual-Platform
+[INFO] Date: Tue Jan  6 08:37:31 PM CET 2026
+
+
+[INFO] --- Users audit ---
+[INFO] total users detected: 57
+[34m[INFO] [0mtotal users detected: 57 
+[33m[WARNING] [0m⚠️ Privileged account detected: root 
+[WARNING] ⚠️ Privileged account detected: root
+[32m[OK] [0mNo extra privileged accounts detected. 
+[OK] No extra privileged accounts detected.
+
+
+[INFO] --- Open ports audit ---
+[31m[CRITICAL][0m Total ports open detected: 25
+Port open detected: 22
+Port open detected: 48340
+Port open detected: 49000
+Port open detected: 53
+Port open detected: 5353
+Port open detected: 631
+Port open detected: 80
+Port open detected: 8060
+Port open detected: 8080
+Port open detected: 8082
+Port open detected: 8092
+Port open detected: 8150
+Port open detected: 8151
+Port open detected: 8153
+Port open detected: 8154
+Port open detected: 8155
+Port open detected: 9090
+Port open detected: 9093
+Port open detected: 9094
+Port open detected: 9100
+Port open detected: 9121
+Port open detected: 9168
+Port open detected: 9187
+Port open detected: 9229
+Port open detected: 9236
+
+
+[INFO] --- Running services audit ---
+[33m[WARNING][0m Total running services detected: 35
+Detected service: accounts-daemon.service
+Detected service: avahi-daemon.service
+Detected service: colord.service
+Detected service: containerd.service
+Detected service: cron.service
+Detected service: cups-browsed.service
+Detected service: cups.service
+Detected service: dbus.service
+Detected service: fwupd.service
+Detected service: gdm.service
+Detected service: gitlab-runsvdir.service
+Detected service: gnome-remote-desktop.service
+Detected service: jenkins.service
+Detected service: kerneloops.service
+Detected service: ModemManager.service
+Detected service: NetworkManager.service
+Detected service: open-vm-tools.service
+Detected service: polkit.service
+Detected service: power-profiles-daemon.service
+Detected service: rsyslog.service
+Detected service: rtkit-daemon.service
+Detected service: snapd.service
+Detected service: switcheroo-control.service
+Detected service: systemd-journald.service
+Detected service: systemd-logind.service
+Detected service: systemd-oomd.service
+Detected service: systemd-resolved.service
+Detected service: systemd-timesyncd.service
+Detected service: systemd-udevd.service
+Detected service: udisks2.service
+Detected service: unattended-upgrades.service
+Detected service: upower.service
+Detected service: user@1000.service
+Detected service: vgauth.service
+Detected service: wpa_supplicant.service
+[INFO] ===== LINUX SECURITY AUDIT =====
+[INFO] Audit executed at 2026-01-06 20:39:11 by ubuntu-VMware-Virtual-Platform
+[INFO] ------------------------
+[INFO] hostname: ubuntu-VMware-Virtual-Platform
+[INFO] Date: Tue Jan  6 08:39:11 PM CET 2026
+
+
+[INFO] --- Users audit ---
+[34m[INFO] [0mtotal users detected: 57 
+[INFO] total users detected: 57
+[WARNING] ⚠️ Privileged account detected: root
+[33m[WARNING] [0m⚠️ Privileged account detected: root 
+[32m[OK] [0mNo extra privileged accounts detected. 
+[OK] No extra privileged accounts detected.
+
+
+[INFO] --- Open ports audit ---
+[31m[CRITICAL][0m Total ports open detected: 25
+[INFO] Port open detected: 22
+[INFO] Port open detected: 48340
+[INFO] Port open detected: 49000
+[INFO] Port open detected: 53
+[INFO] Port open detected: 5353
+[INFO] Port open detected: 631
+[INFO] Port open detected: 80
+[INFO] Port open detected: 8060
+[INFO] Port open detected: 8080
+[INFO] Port open detected: 8082
+[INFO] Port open detected: 8092
+[INFO] Port open detected: 8150
+[INFO] Port open detected: 8151
+[INFO] Port open detected: 8153
+[INFO] Port open detected: 8154
+[INFO] Port open detected: 8155
+[INFO] Port open detected: 9090
+[INFO] Port open detected: 9093
+[INFO] Port open detected: 9094
+[INFO] Port open detected: 9100
+[INFO] Port open detected: 9121
+[INFO] Port open detected: 9168
+[INFO] Port open detected: 9187
+[INFO] Port open detected: 9229
+[INFO] Port open detected: 9236
+[34m[INFO] [0mPort open detected: 22 
+[34m[INFO] [0mPort open detected: 48340 
+[34m[INFO] [0mPort open detected: 49000 
+[34m[INFO] [0mPort open detected: 53 
+[34m[INFO] [0mPort open detected: 5353 
+[34m[INFO] [0mPort open detected: 631 
+[34m[INFO] [0mPort open detected: 80 
+[34m[INFO] [0mPort open detected: 8060 
+[34m[INFO] [0mPort open detected: 8080 
+[34m[INFO] [0mPort open detected: 8082 
+[34m[INFO] [0mPort open detected: 8092 
+[34m[INFO] [0mPort open detected: 8150 
+[34m[INFO] [0mPort open detected: 8151 
+[34m[INFO] [0mPort open detected: 8153 
+[34m[INFO] [0mPort open detected: 8154 
+[34m[INFO] [0mPort open detected: 8155 
+[34m[INFO] [0mPort open detected: 9090 
+[34m[INFO] [0mPort open detected: 9093 
+[34m[INFO] [0mPort open detected: 9094 
+[34m[INFO] [0mPort open detected: 9100 
+[34m[INFO] [0mPort open detected: 9121 
+[34m[INFO] [0mPort open detected: 9168 
+[34m[INFO] [0mPort open detected: 9187 
+[34m[INFO] [0mPort open detected: 9229 
+[34m[INFO] [0mPort open detected: 9236 
+
+
+[INFO] --- Running services audit ---
+[33m[WARNING][0m Total running services detected: 35
+[34m[INFO] [0mDetected service: accounts-daemon.service 
+[INFO] Detected service: accounts-daemon.service
+[34m[INFO] [0mDetected service: avahi-daemon.service 
+[INFO] Detected service: avahi-daemon.service
+[34m[INFO] [0mDetected service: colord.service 
+[INFO] Detected service: colord.service
+[34m[INFO] [0mDetected service: containerd.service 
+[INFO] Detected service: containerd.service
+[34m[INFO] [0mDetected service: cron.service 
+[INFO] Detected service: cron.service
+[34m[INFO] [0mDetected service: cups-browsed.service 
+[INFO] Detected service: cups-browsed.service
+[INFO] Detected service: cups.service
+[34m[INFO] [0mDetected service: cups.service 
+[34m[INFO] [0mDetected service: dbus.service 
+[INFO] Detected service: dbus.service
+[34m[INFO] [0mDetected service: fwupd.service 
+[INFO] Detected service: fwupd.service
+[34m[INFO] [0mDetected service: gdm.service 
+[INFO] Detected service: gdm.service
+[34m[INFO] [0mDetected service: gitlab-runsvdir.service 
+[INFO] Detected service: gitlab-runsvdir.service
+[INFO] Detected service: gnome-remote-desktop.service
+[34m[INFO] [0mDetected service: gnome-remote-desktop.service 
+[34m[INFO] [0mDetected service: jenkins.service 
+[INFO] Detected service: jenkins.service
+[34m[INFO] [0mDetected service: kerneloops.service 
+[INFO] Detected service: kerneloops.service
+[INFO] Detected service: ModemManager.service
+[34m[INFO] [0mDetected service: ModemManager.service 
+[34m[INFO] [0mDetected service: NetworkManager.service 
+[INFO] Detected service: NetworkManager.service
+[34m[INFO] [0mDetected service: open-vm-tools.service 
+[INFO] Detected service: open-vm-tools.service
+[34m[INFO] [0mDetected service: polkit.service 
+[INFO] Detected service: polkit.service
+[34m[INFO] [0mDetected service: power-profiles-daemon.service 
+[INFO] Detected service: power-profiles-daemon.service
+[34m[INFO] [0mDetected service: rsyslog.service 
+[INFO] Detected service: rsyslog.service
+[34m[INFO] [0mDetected service: rtkit-daemon.service 
+[INFO] Detected service: rtkit-daemon.service
+[34m[INFO] [0mDetected service: snapd.service 
+[INFO] Detected service: snapd.service
+[34m[INFO] [0mDetected service: switcheroo-control.service 
+[INFO] Detected service: switcheroo-control.service
+[34m[INFO] [0mDetected service: systemd-journald.service 
+[INFO] Detected service: systemd-journald.service
+[34m[INFO] [0mDetected service: systemd-logind.service 
+[INFO] Detected service: systemd-logind.service
+[INFO] Detected service: systemd-oomd.service
+[34m[INFO] [0mDetected service: systemd-oomd.service 
+[34m[INFO] [0mDetected service: systemd-resolved.service 
+[INFO] Detected service: systemd-resolved.service
+[34m[INFO] [0mDetected service: systemd-timesyncd.service 
+[INFO] Detected service: systemd-timesyncd.service
+[34m[INFO] [0mDetected service: systemd-udevd.service 
+[INFO] Detected service: systemd-udevd.service
+[34m[INFO] [0mDetected service: udisks2.service 
+[INFO] Detected service: udisks2.service
+[34m[INFO] [0mDetected service: unattended-upgrades.service 
+[INFO] Detected service: unattended-upgrades.service
+[34m[INFO] [0mDetected service: upower.service 
+[INFO] Detected service: upower.service
+[INFO] Detected service: user@1000.service
+[34m[INFO] [0mDetected service: user@1000.service 
+[34m[INFO] [0mDetected service: vgauth.service 
+[INFO] Detected service: vgauth.service
+[34m[INFO] [0mDetected service: wpa_supplicant.service 
+[INFO] Detected service: wpa_supplicant.service

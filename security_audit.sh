@@ -1,14 +1,13 @@
 #!/bin/bash
 
 DIR_SCRIPT="$(cd "$(dirname "$0")" && pwd)"
-source "$DIR_SCRIPT"/audits/tools.sh
 DIRECTORY="reports"
-
+export REPORT_FILE="$DIRECTORY/audit_$(date -I).txt"
 if [ ! -d "$DIRECTORY" ]; then
         mkdir "$DIRECTORY"
 fi
 
-REPORT_FILE="$DIRECTORY/audit_$(date -I).txt"
+source "$DIR_SCRIPT"/audits/tools.sh
 log_level INFO "===== LINUX SECURITY AUDIT ====="
 log_level INFO "Audit executed at $(date '+%Y-%m-%d %H:%M:%S') by $(hostname)" 
 log_level INFO "------------------------"

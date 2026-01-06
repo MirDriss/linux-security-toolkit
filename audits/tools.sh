@@ -30,6 +30,8 @@ function log_level(){
         esac 
         # Write in the terminal 
         echo -e "${color}[$level] ${RESET}$message " 
-        # Write in the file 
-        echo "[$level] $message" >> "$REPORT_FILE"
+	if [ -n "REPORT_FILE" ]; then 
+		 # Write in the file 
+        	echo "[$level] $message" >> "$REPORT_FILE"
+	fi
 }

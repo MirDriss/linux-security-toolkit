@@ -9,6 +9,6 @@ echo -e "$STATUS Total running services detected: $total"
 
 while read line; do 
 	service=$(echo "$line" | awk '{print $1}')
-	echo "Detected service: $service"
+	log_level INFO "Detected service: $service"
 done< <(systemctl list-units --type=service --state=running | grep ".service")
 
