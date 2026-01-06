@@ -1,22 +1,11 @@
 #!/bin/bash 
 
-RESET="\033[0m"
+DIR_NAME="$(cd "$(dirname "$0")" && pwd)"
+source "$DIR_NAME"/tools.sh
 total=$(systemctl list-units --type=service --state=running | grep ".service" | wc -l)
 
-function status_color(){
-        if [ "$total" -lt 30 ]; then 
-                STATUS="OK"
-                COLOR="\033[32m"
-        elif [ "$total" -lt 60 ]; then 
-                STATUS="WARNING"
-                COLOR="\033[33m"
-        else
-                STATUS="CRITICAL"
-                COLOR="\033[31m"
-        fi
-}
-status_color
-echo -e "${COLOR}[$STATUS]${RESET} Total running services detected: $total"
+STATUS=$(get_status_color "$total" 30 60)
+echo -e "$STATUS Total running services detected: $total"
 
 while read line; do 
 	service=$(echo "$line" | awk '{print $1}')
