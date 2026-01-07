@@ -31,3 +31,31 @@ function log_level(){
         # Write in the terminal 
         echo -e "${color}[$level] ${RESET}$message " | tee -a "$REPORT_FILE"
 }
+
+function check_dependencies(){
+	local dependencies=("ss" "awk" "systemctl")
+	local count=0
+	for cmd in "${dependencies[@]}"
+	do
+		if ! command -v "$cmd" &> "/dev/null"; then  
+			log_level CRITICAL "Dependency missing : $cmd"
+			((count++))
+		fi
+	done
+	
+	if [ "$count" -gt 0 ]; then
+		log_level CRITICAL "Please install missing dependencies to run the audit. Aborting."
+		exit 1
+	fi
+	
+	log_level OK "All dependencies are satisfied."
+}
+	
+
+function check_root(){
+	if [ "$EUID" -ne 0 ]; then
+		log_level CRITICAL "script has to be exectued by the root user"
+		exit 1
+	fi
+	log_level INFO "Running with root privileges."
+}

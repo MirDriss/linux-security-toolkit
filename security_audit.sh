@@ -8,6 +8,8 @@ if [ ! -d "$DIRECTORY" ]; then
 fi
 
 source "$DIR_SCRIPT"/audits/tools.sh
+check_root
+check_dependencies
 echo -e "\n" | tee -a "$REPORT_FILE"
 echo -e "================ LINUX SECURITY AUDIT ================ \n" | tee -a "$REPORT_FILE"
 log_level INFO "Audit executed at $(date '+%Y-%m-%d %H:%M:%S') by $(hostname)" 
