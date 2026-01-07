@@ -8,20 +8,20 @@ if [ ! -d "$DIRECTORY" ]; then
 fi
 
 source "$DIR_SCRIPT"/audits/tools.sh
-log_level INFO "===== LINUX SECURITY AUDIT ====="
+echo -e "\n" | tee -a "$REPORT_FILE"
+echo -e "================ LINUX SECURITY AUDIT ================ \n" | tee -a "$REPORT_FILE"
 log_level INFO "Audit executed at $(date '+%Y-%m-%d %H:%M:%S') by $(hostname)" 
 log_level INFO "------------------------"
 log_level INFO "hostname: $(hostname)"
 log_level INFO "Date: $(date)"
 echo -e "\n" | tee -a "$REPORT_FILE"
 log_level INFO "--- Users audit ---"  
-"$DIR_SCRIPT"/audits/users_uid0.sh | tee -a "$REPORT_FILE"
+"$DIR_SCRIPT"/audits/users_uid0.sh 
 echo -e "\n" | tee -a "$REPORT_FILE"
 log_level INFO "--- Open ports audit ---" 
-"$DIR_SCRIPT"/audits/ports_open.sh | tee -a "$REPORT_FILE"
+"$DIR_SCRIPT"/audits/ports_open.sh 
 echo -e "\n" | tee -a "$REPORT_FILE"
 log_level INFO "--- Running services audit ---"
-"$DIR_SCRIPT"/audits/services_running.sh | tee -a "$REPORT_FILE"
-
+"$DIR_SCRIPT"/audits/services_running.sh 
 
 

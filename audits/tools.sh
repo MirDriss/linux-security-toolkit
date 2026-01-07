@@ -29,9 +29,5 @@ function log_level(){
                 *) color="$RESET" ;;
         esac 
         # Write in the terminal 
-        echo -e "${color}[$level] ${RESET}$message " 
-	if [ -n "REPORT_FILE" ]; then 
-		 # Write in the file 
-        	echo "[$level] $message" >> "$REPORT_FILE"
-	fi
+        echo -e "${color}[$level] ${RESET}$message " | tee -a "$REPORT_FILE"
 }
