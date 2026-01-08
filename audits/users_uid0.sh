@@ -14,7 +14,9 @@ while read line; do
 	fi
 done < /etc/passwd
 
-if [ "$flag" -eq 1 ]; then 
+if [ "$flag" -eq "0" ]; then 
+	log_level CRITICAL "root missing ???"
+elif [ "$flag" -eq 1 ]; then 
 	log_level OK "No extra privileged accounts detected."
 else
 	log_level CRITICAL "ALERT: Multiple UID 0 accounts detected. Potential privilege escalation risk."
