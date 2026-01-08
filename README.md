@@ -22,6 +22,7 @@ This project focuses on simplicity, clarity, and audit reliability. It was devel
 
 ## Project Structure
 
+```bash
 .
 ├── security_audit.sh
 ├── audits/
@@ -32,7 +33,6 @@ This project focuses on simplicity, clarity, and audit reliability. It was devel
 ├── reports/
 │   └── audit_YYYY-MM-DD.txt
 └── README.md
-
 ---
 
 ## Prerequisites
