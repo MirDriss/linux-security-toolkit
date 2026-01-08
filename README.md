@@ -33,7 +33,7 @@ This project focuses on simplicity, clarity, and audit reliability. It was devel
 ├── reports/
 │   └── audit_YYYY-MM-DD.txt
 └── README.md
-'''
+```
 ---
 
 ## Prerequisites
