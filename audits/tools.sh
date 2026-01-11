@@ -5,30 +5,23 @@ RED="\033[31m"
 YELLOW="\033[33m"
 GREEN="\033[32m"
 BLUE="\033[34m"
-function get_status_color(){
-	local sum="$1"
-	local warn="$2"
-	local crit="$3"
-	if [ "$sum" -lt "$warn" ]; then 
-		echo -e "${GREEN}[OK]${RESET}"
-	elif [ "$sum" -lt "$crit" ]; then 
-		echo -e "${YELLOW}[WARNING]${RESET}"
-	else
-		echo -e "${RED}[CRITICAL]${RESET}"
-	fi
-} 
+
+AUDIT_NAME="${AUDIT_NAME:="general"}"
 
 function log_level(){
         level="$1"
         message="$2"
+	if [ "$REPORT_FORMAT" = "json" ]; then 
+		log_json_line "$level" "$message"
+		return
+	fi
         case "$level" in 
                 INFO) color="$BLUE" ;;
                 OK) color="$GREEN" ;;
                 WARNING) color="$YELLOW" ;;
                 ALERT|CRITICAL) color="$RED" ;;
                 *) color="$RESET" ;;
-        esac 
-        # Write in the terminal 
+        esac  
         echo -e "${color}[$level] ${RESET}$message " | tee -a "$REPORT_FILE"
 }
 
@@ -58,4 +51,16 @@ function check_root(){
 		exit 1
 	fi
 	log_level INFO "Running with root privileges."
+}
+
+function log_json_line(){
+	local level="$1"
+	local message="$2"
+	local ts host audit msg
+	host="$(hostname)"
+	audit="$AUDIT_NAME"
+	ts="$(date -u '+%FT%TZ')"
+	msg="${message//\\/\\\\}"
+	msg="${msg//\"/\\\"}"
+	echo "{\"ts\":\"$ts\",\"host\":\"$host\",\"audit\":\"$audit\",\"level\":\"$level\",\"message\":\"$msg\"}" >> "$REPORT_FILE"
 }
