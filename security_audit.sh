@@ -11,7 +11,7 @@ ANY_AUDIT=false
 RUN_USERS=false
 RUN_SERVICES=false
 RUN_PORTS=false
-
+FORMET_SET=false
 while [[ "$#" -gt 0 ]]
 do 
 	case "$1" in 
@@ -31,10 +31,20 @@ do
 		shift
 		;;
 	--format=txt)
+		if [ "$FORMAT_SET" = true ]; then 
+			echo "Error: --format specified multiple times"
+			exit 1
+		fi
+		FORMAT_SET=true
 		REPORT_FORMAT="txt"
 		shift
 		;;
 	--format=json) 
+		if [ "$FORMAT_SET" = true ]; then 
+                        echo "Error: --format specified multiple times"
+                        exit 1
+                fi
+                FORMAT_SET=true
 		REPORT_FORMAT="json"
 		shift
 		;;
