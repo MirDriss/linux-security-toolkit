@@ -17,7 +17,9 @@ This project focuses on simplicity, clarity, and audit reliability. It was devel
 - Severity-based logging (INFO / OK / WARNING / CRITICAL)
 - Centralized audit report generation
 - Dependency and privilege checks before execution
-
+- Multiple output formats (TXT and JSON Lines)
+- Structured JSON logs for CI/CD and automation
+- Strict CLI argument validation
 ---
 
 ## Project Structure
@@ -31,7 +33,7 @@ This project focuses on simplicity, clarity, and audit reliability. It was devel
 │   ├── services_running.sh
 │   └── tools.sh
 ├── reports/
-│   └── audit_YYYY-MM-DD.txt
+│   └── audit_YYYY-MM-DD.<txt|jsonl>
 └── README.md
 ```
 ---
@@ -74,11 +76,46 @@ sudo ./security_audit.sh --services
 
 - Audit reports are generated in the reports/ directory
 - Reports are timestamped (audit_YYYY-MM-DD.txt)
+- Supported formats:
+  - TXT: human-readable audit report
+  - JSONL: one JSON object per log line
 - Logs are displayed in the terminal and written to the report file
 - Each audit section includes a severity level:
   - OK: No issue detected
   - WARNING: Potential security concern
   - CRITICAL: High-risk configuration detected
+
+---
+
+## Output format
+
+By default, the audit report is generated in TXT format.
+
+To generate a JSON Lines report:
+
+sudo ./security_audit.sh --format=json
+
+To explicitly request TXT format:
+
+sudo ./security_audit.sh --format=txt
+
+⚠️ Only one --format flag is allowed.
+
+The following command will result in an error:
+
+./security_audit.sh --format=txt --format=json
+
+---
+
+### JSON format
+
+Each line in the JSONL file represents a single log entry:
+
+- ts: UTC timestamp
+- host: hostname
+- audit: audit scope
+- level: INFO / OK / WARNING / CRITICAL
+- message: log message
 
 ---
 
@@ -111,6 +148,5 @@ sudo ./security_audit.sh --services
 
 - SSH hardening checks
 - Firewall configuration validation
-- JSON output format for CI/CD integration
 - Exit codes based on audit severity
 - Additional system hardening audits
